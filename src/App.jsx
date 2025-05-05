@@ -16,7 +16,7 @@ function App() {
           <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <img src={logo} alt="" srcset="" />
+            <img src={logo} alt=""/>
           </div>
         </div>
       </header>
