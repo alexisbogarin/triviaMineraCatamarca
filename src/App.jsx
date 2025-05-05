@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MapaAgricola from "./components/MapaAgricola";
+import logo from './assets/Logo-ER-03.png';
 
 function App() {
   const [modoVisualizacion, setModoVisualizacion] = useState("siglea");
@@ -13,16 +14,9 @@ function App() {
           <div className="lg:col-span-1 space-y-4">
 
           <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
-                DATOS LÁCTEOS ENTRE RÍOS
-              </span>
-            </h1>
-            <p className="mt-2 text-lg text-gray-600">
-              Visualización interactiva de la producción láctea provincial
-            </p>
+            <img src={logo} alt="" srcset="" />
           </div>
         </div>
       </header>
