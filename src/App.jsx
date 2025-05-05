@@ -6,7 +6,7 @@ function App() {
   const [modoVisualizacion, setModoVisualizacion] = useState("siglea");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-[#64B44B] to-[#B6D938]">
       {/* Main Content */}
       <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -20,7 +20,6 @@ function App() {
           </div>
         </div>
       </header>
-
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
                 Modo de Visualización
@@ -30,14 +29,14 @@ function App() {
                 <button
                   onClick={() => setModoVisualizacion("siglea")}
                   className={`w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors border ${modoVisualizacion === "siglea"
-                      ? "bg-blue-100 text-blue-800 border-blue-300"
-                      : "bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100"
+                      ? "bg-[#668146] text-white border-blue-300"
+                      : "bg-[#82A55A] text-white border-blue-200"
                     }`}
                 >
                   <div className="flex items-center">
                     Producción (SIGLEA)
                   </div>
-                  <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span className="bg-[#B6D938] text-[#384726] text-xs px-2 py-1 rounded-full">
                     Litros
                   </span>
                 </button>
@@ -45,14 +44,14 @@ function App() {
                 <button
                   onClick={() => setModoVisualizacion("senasa")}
                   className={`w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors border ${modoVisualizacion === "senasa"
-                      ? "bg-purple-100 text-purple-800 border-purple-300"
-                      : "bg-purple-50 text-purple-700 border-purple-200 hover:bg-purple-100"
+                      ? "bg-[#4B5A64] text-white border-purple-300"
+                      : "bg-[#687d8b] text-white border-purple-200"
                     }`}
                 >
                   <div className="flex items-center">
                     Rebaño (SENASA)
                   </div>
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
+                  <span className="bg-white text-[#333d44] text-xs px-2 py-1 rounded-full">
                     Vacas
                   </span>
                 </button>
@@ -61,7 +60,7 @@ function App() {
                   onClick={() => setModoVisualizacion("industrias")}
                   className={`w-full flex items-center justify-between px-4 py-3 rounded-lg transition-colors border ${modoVisualizacion === "industrias"
                       ? "bg-cyan-100 text-cyan-800 border-cyan-300"
-                      : "bg-cyan-50 text-cyan-700 border-cyan-200 hover:bg-cyan-100"
+                      : "bg-cyan-50 text-cyan-700 border-cyan-200"
                     }`}
                 >
                   <div className="flex items-center">
