@@ -8,11 +8,10 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#64B44B] to-[#B6D938]">
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col landscape:flex-row">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           {/* Panel de control - ahora en columna lateral */}
           <div className="lg:col-span-1 space-y-4">
-
           <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -71,24 +70,6 @@ function App() {
                   </span>
                 </button>
               </div>
-
-              <div className="mt-6 pt-4 border-t border-gray-200">
-                <h3 className="text-sm font-medium text-gray-500 mb-2">
-                  Leyenda actual:
-                </h3>
-                <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 rounded-full bg-blue-500"></div>
-                  <span className="text-xs text-gray-600">Alta producción</span>
-                </div>
-                <div className="flex items-center space-x-2 mt-1">
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                  <span className="text-xs text-gray-600">Media producción</span>
-                </div>
-                <div className="flex items-center space-x-2 mt-1">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                  <span className="text-xs text-gray-600">Baja producción</span>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -104,7 +85,7 @@ function App() {
             {/* Footer informativo */}
             <div className="mt-6 text-center text-sm text-gray-500">
               <p>
-                Fuente: Ministerio de Agroindustria de Entre Ríos |
+                Fuente: Entre Ríos |
                 <span className="mx-2">•</span>
                 Última actualización: {new Date().toLocaleDateString('es-AR')}
               </p>
