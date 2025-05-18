@@ -1,0 +1,77 @@
+[
+  {
+    "pregunta": "El cobre, extraído de minerales que forman el pórfido de cobre, sirve para fabricar:",
+    "opciones": ["Cemento", "Joyas", "Cables"],
+    "correcta": "Cables"
+  },
+  {
+    "pregunta": "¿Cómo se llama la roca con la que revestimos y embellecemos nuestras viviendas?",
+    "opciones": ["Oro", "Laja", "Jade"],
+    "correcta": "Laja"
+  },
+  {
+    "pregunta": "¿Cómo se llama una de las sustancias minerales utilizada para fabricación de baterías para celulares?",
+    "opciones": ["Litio", "Rodocrosita", "Yeso"],
+    "correcta": "Litio"
+  },
+  {
+    "pregunta": "El mármol ónix de Catamarca es utilizado por artesanos para realizar:",
+    "opciones": ["Joyas y ceniceros", "Papel", "Vidrios para anteojos"],
+    "correcta": "Joyas y ceniceros"
+  },
+  {
+    "pregunta": "¿Qué minerales se emplean para la creación de los marcapasos artificiales?",
+    "opciones": ["Plata y oro", "Platino y litio", "Cobre y plata"],
+    "correcta": "Platino y litio"
+  },
+  {
+    "pregunta": "¿Adónde se encuentra el yacimiento Bajo de La Alumbrera, que fuese el único productor de cobre y molibdeno de Argentina?",
+    "opciones": ["Capital", "Antofagasta de la Sierra", "Belén"],
+    "correcta": "Belén"
+  },
+  {
+    "pregunta": "¿Cuál es la provincia que produce y tiene las mayores reservas de litio de Argentina?",
+    "opciones": ["Salta", "Catamarca", "Jujuy"],
+    "correcta": "Catamarca"
+  },
+  {
+    "pregunta": "Hace más de 25 años, Catamarca a través del proyecto Fénix produce sales de litio. ¿Dónde se encuentra ese yacimiento?",
+    "opciones": ["Salar del Hombre Muerto", "Sierra de Ancasti", "Campo del Arenal"],
+    "correcta": "Salar del Hombre Muerto"
+  },
+  {
+    "pregunta": "Desde 2017 hay un gran incremento en la búsqueda de un mineral requerido para la fabricación de baterías de autos eléctricos. ¿Cuál es esa sustancia?",
+    "opciones": ["Oro", "Litio", "Jade"],
+    "correcta": "Litio"
+  },
+  {
+    "pregunta": "¿Cuál de estos elementos se extrae comúnmente de las minas de sal?",
+    "opciones": ["Potasio", "Sodio", "Los dos anteriores"],
+    "correcta": "Los dos anteriores"
+  },
+  {
+    "pregunta": "¿En cuál departamento se encuentra la mina Farallón Negro que produce oro y plata desde 1978?",
+    "opciones": ["Belén", "Andalgalá", "Pomán"],
+    "correcta": "Belén"
+  },
+  {
+    "pregunta": "¿Cuál es la dirección perteneciente al Ministerio de Minería que controla el cuidado ambiental del aire y agua?",
+    "opciones": ["Dirección Provincial de Minería", "Dirección Provincial de Gestión Ambiental", "Dirección Provincial de Promoción y Responsabilidad Social Minera"],
+    "correcta": "Dirección Provincial de Gestión Ambiental"
+  },
+  {
+    "pregunta": "¿Cuál es la piedra preciosa ornamental considerada piedra nacional, producida únicamente en Catamarca?",
+    "opciones": ["Laja", "Yeso", "Rodocrosita"],
+    "correcta": "Rodocrosita"
+  },
+  {
+    "pregunta": "¿Qué mineral se utiliza en cosméticos?",
+    "opciones": ["Oro", "Plata", "Litio"],
+    "correcta": "Litio"
+  },
+  {
+    "pregunta": "¿Qué es una gema o piedra preciosa?",
+    "opciones": ["Mineral o roca", "Cobre", "Hierro"],
+    "correcta": "Mineral o roca"
+  }
+]
