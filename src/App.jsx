@@ -8,11 +8,15 @@ function App() {
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
   const [opcionSeleccionada, setOpcionSeleccionada] = useState(null);
   const [juegoTerminado, setJuegoTerminado] = useState(false);
+  const [respuestasCorrectas, setRespuestasCorrectas] = useState(0);
+  const [respuestasIncorrectas, setRespuestasIncorrectas] = useState(0);
 
   const comenzarJuego = () => {
     setJuegoIniciado(true);
     setJuegoTerminado(false);
     setPreguntaActual(0);
+    setRespuestasCorrectas(0);
+    setRespuestasIncorrectas(0);
   };
 
   const siguientePregunta = () => {
@@ -28,6 +32,14 @@ function App() {
   const verificarRespuesta = (opcion) => {
     setOpcionSeleccionada(opcion);
     setMostrarRespuesta(true);
+
+    const esCorrecta = opcion === preguntas[preguntaActual].correcta;
+    if (esCorrecta) {
+      setRespuestasCorrectas((prev) => prev + 1);
+    } else {
+      setRespuestasIncorrectas((prev) => prev + 1);
+    }
+
     setTimeout(() => {
       siguientePregunta();
       setOpcionSeleccionada(null);
@@ -54,7 +66,8 @@ function App() {
       {juegoTerminado ? (
         <div className="text-center">
           <h2 className="text-4xl font-bold text-[#222A59] mb-4">¡Juego Terminado!</h2>
-          <p className="text-lg text-gray-600 mb-6">Gracias por jugar. ¿Te atreves a intentarlo de nuevo?</p>
+          <p className="text-lg text-gray-600 mb-2">😎​ Correctas: <strong>{respuestasCorrectas}</strong></p>
+          <p className="text-lg text-gray-600 mb-6">​😭​ Incorrectas: <strong>{respuestasIncorrectas}</strong></p>
           <button onClick={() => window.location.reload()} className="bg-[#64A1D5] text-white font-semibold py-3 px-8 rounded-2xl shadow-lg transition duration-300">
             VOLVER A JUGAR
           </button>
